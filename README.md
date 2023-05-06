@@ -6,7 +6,7 @@
 
 - 📫 How to reach me? **gunderselad@gmail.com**
 
-## Lets Define Me!
+## Lets define me!
 
 ```python
 class Me(Person):
@@ -38,7 +38,7 @@ class Me(Person):
         print("Uh oh, looks like I need more coffee...")
         ...
 
-    def develop_feature(self, feature: Feature):
+    def develop_feature(self, feature):
         for taks in feature.tasks:
             self.drink_coffee()
             self.define_test_cases(task)

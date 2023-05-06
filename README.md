@@ -1,10 +1,17 @@
 <h1 align="center">Hi, I'm Elad Gunders ✨</h1>
 
+<div align="center" id="badges">
+  <a href="https://www.linkedin.com/in/elad-gunders-4385241b3/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="gunderselad@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Youtube Badge"/>
+  </a>
+</div>
+
 <h3 align="center">23 Years old full stack developer from Israel 🇮🇱</h3>
 
 - 🔭 I’m currently working on [🚀 async web server using FastAPI for to-do apps](https://github.com/eladgunders/todos_back)
-
-- 📫 How to reach me? **gunderselad@gmail.com**
 
 ## Lets define me!
 

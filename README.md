@@ -26,7 +26,7 @@ class Me(Person):
         self.hobbies = ['Chess', 'Music', 'Video Games']
         
     def develop_feature(self, feature):
-        for taks in feature.tasks:
+        for tasks in feature.tasks:
             self.drink_coffee()
             self.define_test_cases(task)
             self.write_code(task)

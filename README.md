@@ -25,6 +25,14 @@ class Me(Person):
         self.jobs = ['Full Stack Developer', 'Back End Developer', 'Front End Developer']
         self.hobbies = ['Chess', 'Music', 'Video Games']
         
+    def develop_feature(self, feature):
+        for taks in feature.tasks:
+            self.drink_coffee()
+            self.define_test_cases(task)
+            self.write_code(task)
+            self.write_tests(task)
+            self.refill_coffee()
+        
     def define_test_cases(self, task):
         print("What are the test cases again? Oh yeah, let's get to it...")
         ...
@@ -44,12 +52,4 @@ class Me(Person):
     def refill_coffee(self):
         print("Uh oh, looks like I need more coffee...")
         ...
-
-    def develop_feature(self, feature):
-        for taks in feature.tasks:
-            self.drink_coffee()
-            self.define_test_cases(task)
-            self.write_code(task)
-            self.write_tests(task)
-            self.refill_coffee()
 ```

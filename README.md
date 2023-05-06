@@ -20,18 +20,23 @@ class Me(Person):
         
     def define_test_cases(self, task):
         print("What are the test cases again? Oh yeah, let's get to it...")
+        ...
         
     def write_code(self, task):
         print('Tap, tap, tap... coding like a boss!')
+        ...
 
     def write_tests(self, task):
         print('Time to make sure this code works like a charm...')
+        ...
         
     def drink_coffee(self):
         print("Glug, glug, glug... ahh, that's the good stuff!")
+        ...
       
     def refill_coffee(self):
         print("Uh oh, looks like I need more coffee...")
+        ...
 
     def develop_feature(self, feature: Feature):
         for taks in feature.tasks:

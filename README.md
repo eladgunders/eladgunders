@@ -19,14 +19,15 @@
 class Me(Person):
     def __init__(self):
         super().__init__()
-        self.name = 'Elad Gunders'
+        self.first_name = 'Elad'
+        self.last_name = 'Gunders'
         self.age = 23
         self.location = 'Israel'
         self.jobs = ['Full Stack Developer', 'Back End Developer', 'Front End Developer']
         self.hobbies = ['Chess', 'Music', 'Video Games']
         
     def develop_feature(self, feature):
-        for tasks in feature.tasks:
+        for task in feature.tasks:
             self.drink_coffee()
             self.define_test_cases(task)
             self.write_code(task)

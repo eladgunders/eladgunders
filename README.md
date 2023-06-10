@@ -11,46 +11,19 @@
 
 <h3 align="center">23 Years old full stack developer from Israel 🇮🇱</h3>
 
-- 🔭 I’m currently working on [🚀 async web server using FastAPI for to-do apps](https://github.com/eladgunders/todos_back)
+- 🔭 I’m currently working on [🌈 to-do list web app using React & Typescript](https://github.com/eladgunders/react-typescript-todos)
 
 ## Lets define me!
 
 ```python
-class Me(Person):
-    def __init__(self):
+class Me(Human):
+    def __init__(self) -> None:
         super().__init__()
-        self.first_name = 'Elad'
-        self.last_name = 'Gunders'
-        self.age = 23
-        self.location = 'Israel'
-        self.jobs = ['Full Stack Developer', 'Back End Developer', 'Front End Developer']
-        self.hobbies = ['Chess', 'Music', 'Video Games']
-        
-    def develop_feature(self, feature):
-        for task in feature.tasks:
-            self.drink_coffee()
-            self.define_test_cases(task)
-            self.write_code(task)
-            self.write_tests(task)
-            self.refill_coffee()
-        
-    def define_test_cases(self, task):
-        print("What are the test cases again? Oh yeah, let's get to it...")
-        ...
-        
-    def write_code(self, task):
-        print('Tap, tap, tap... coding like a boss!')
-        ...
-
-    def write_tests(self, task):
-        print('Time to make sure this code works like a charm...')
-        ...
-        
-    def drink_coffee(self):
-        print("Glug, glug, glug... ahh, that's the good stuff!")
-        ...
-      
-    def refill_coffee(self):
-        print("Uh oh, looks like I need more coffee...")
-        ...
+        self.first_name: str = 'Elad'
+        self.last_name: str = 'Gunders'
+        self.age: int = 23
+        self.location: str = 'Israel'
+        self.jobs: list[str] = ['Full Stack Developer', 'Back End Developer', 'Front End Developer']
+        self.open_to_work: bool = True
+        self.hobbies: list[str] = ['Chess', 'Music', 'Video Games']
 ```
